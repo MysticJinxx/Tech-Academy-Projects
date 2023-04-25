@@ -8,7 +8,7 @@ h1 {
     text-shadow: 1px .5px 4px rgba(0,0,0,0.6);
 }
 
-.container{
+.container {
     width: 450px;
     height: 450px;
     background-color: #faebd7;
@@ -19,13 +19,6 @@ h1 {
 /*SELECT ALL SQUARES IN THE ARRAY*/
 
 .container .squares:nth-child(-n+4) {
-    background-image: url("./images/icons/smileyface1.png");
-    color: #fff;
-    float: left;
-    width: 100px;
-    height: 100px;
-    margin: 5px;
-    border: 1px solid black;
-    border-radius: 25%;
-    cursor: pointer;
+    background-color: url("../images/icons/smileyface2.png");
+    
 }
