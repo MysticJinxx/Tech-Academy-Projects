@@ -41,8 +41,8 @@ function showSlides(n) {
 // Event listener for any clicks on the website
 document.addEventListener("click", function (event) {
     // Stating that if the click happens on the cancel button OR anywere that isnt the form, the closeForm() function is called
-    if (event.target.matches(".cancel") || !event.target.closest(".form-popup") && !event.target.closest("Pop_Up_Button") && !event.target.closest(".contact")) {
+    if (event.target.matches(".cancel") || !event.target.closest(".form-popup") && !event.target.closest(".Pop_Up_Button") && !event.target.closest(".contact")) {
         closeForm()
     }
-}, false);
+}, false)
 
