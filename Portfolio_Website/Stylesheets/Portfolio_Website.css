@@ -1,11 +1,13 @@
 /***** GENERAL STYLING *****/
 
+
 html {
     scroll-behavior: smooth;
 }
 /* Body */
 body {
     margin: 0%;
+    margin-top: -1%;
     opacity: 1;
     transition: 3s opacity;/* this and opacity causes a 3 scond fade in */
     letter-spacing: .2vw;
@@ -364,7 +366,7 @@ footer {
 /***** END TABLE STYLING *****/
 
 /***** CONTACT FORM STYLING *****/
-/* button used to pen contact form */
+/* button used to open contact form */
 .Pop_Up_Button {
     position: fixed;
     bottom: 1.75vw;/*places button slightly up from the bottom of the viewport */
